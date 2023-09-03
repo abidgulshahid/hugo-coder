@@ -139,7 +139,7 @@ Social Icons are optional. To use them you will need to set at least all the fol
 | name           | string | Yes      | Icon name.                               | `"Github"`                      |
 | icon           | string | Yes      | ForkAwesome icon classes.                | `"fa fa-github"`                |
 | weight         | int    | Yes      | Icon order.                              | `1`                             |
-| url            | string | Yes      | URL to redirect.                         | `"https://github.com/johndoe/"` |
+| url            | string | Yes      | URL to redirect.                         | `"https://github.com/abidgulshahid/"` |
 
 An example:
 
@@ -148,17 +148,17 @@ An example:
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/abidgulshahid/"
 [[params.social]]
   name = "Gitlab"
   icon = "fa fa-gitlab fa-2x"
   weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://gitlab.com/abidgulshahid/"
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://twitter.com/abidgulshahid/"
 ```
 
 ### Menu Items Configurations
@@ -237,7 +237,7 @@ This is a complete configuration example with some recommended values.
 
 ```toml
 baseurl = "http://www.example.com"
-title = "johndoe"
+title = "abidgulshahid"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -283,17 +283,17 @@ style = "github-dark"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/abidgulshahid/"
 [[params.social]]
   name = "Gitlab"
   icon = "fa fa-gitlab fa-2x"
   weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://gitlab.com/abidgulshahid/"
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://twitter.com/abidgulshahid/"
 
 # Menu links
 [[menu.main]]
